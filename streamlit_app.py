@@ -69,10 +69,23 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     
     labels[0]: {
-       "texts": ["브라질리언", "국물 맛 포인트", "지역별 스타일 차이"],
+       "texts": ["브라질리언", "드리블러", "MSN의 N"],
        "images": ["https://images.khan.co.kr/article/2025/03/02/news-p.v1.20250302.61f2e9573d564cc6a827df0dca494d65_P1.png", "https://.../jjampong2.jpg"],
        "videos": ["https://www.youtube.com/watch?v=wmSlRoSsK68"],
      },
+
+    labels[1]: {
+       "texts": ["챔스의 신", "레알마드리드", "우리형"],
+       "images": ["https://i.namu.wiki/i/QKVs_nOywTsrExMu6I3GGSMEAi_dbWY_nd8alve0HsoIr1y1KW2Pl48IL29mXZx7CFPCe3aWj_XpRzdmb4_ZAw.webp"],
+       "videos": ["https://www.youtube.com/watch?v=2X-4AQME_dA"],
+     },
+
+    labels[2]: {
+       "texts": ["MSN의 S", "동물적인 감각", "핵이빨"],
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwzhUmBnyc5iz0Gy4RF9S4KhLNIr9z2oM9A&s"],
+       "videos": ["https://www.youtube.com/watch?v=aRaVvrDaBKI"],
+     },
+
 }
 
 # ======================
