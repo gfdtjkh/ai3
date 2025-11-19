@@ -11,8 +11,7 @@ import gdown
 # 페이지/스타일
 # ======================
 st.set_page_config(page_title="Fastai 이미지 분류기", page_icon="🤖", layout="wide")
-st.markdown("""
-<style>
+st.markdown("""<style>
 h1 { color:#1E88E5; text-align:center; font-weight:800; letter-spacing:-0.5px; }
 .prediction-box { background:#E3F2FD; border:2px solid #1E88E5; border-radius:12px; padding:22px; text-align:center; margin:16px 0; box-shadow:0 4px 10px rgba(0,0,0,.06);}
 .prediction-box h2 { color:#0D47A1; margin:0; font-size:2.0rem; }
